@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle De Produtos</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <div class="containerG">
+      <div class="titulo">
+        <h1>Gerenciador de Produtos</h1>
+      </div>
+
+      <div class="container">
+        <div class="gp">
+          <div>
+            <span>Adicionar Produto</span>
+          </div>
+          <div class="form">
+            <div>
+              <input type="text" placeholder="Nome do produto" id="addName">
+            </div>
+
+            <div>
+              <input type="text" placeholder="Valor do produto" id="addValor">
+            </div>
+            <div>
+              <button id="add">Adicionar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="ep">
+          <div class="titulo">
+            <span>Modificar Produto</span>
+          </div>
+          <div class="form">
+            <div>
+              <input type="number" placeholder="ID do produto" id="delId">
+            </div>
+            <div>
+              <button id="del">Excluir</button>
+              <button id="res">Restaurar</button>
+            </div>
+
+
+          </div>
+        </div>
+
+
+      </div>
+      <div class="container">
+        <div id="produtos">
+          <div class="titulo">
+            <span>Produtos</span>
+          </div>
+          <div>
+            <table id="listaProdutos">
+              <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Estado</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
