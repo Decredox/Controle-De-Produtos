@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-align: center;
+}
+
+body {
+    display: flex;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.containerG {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3vh;
+    flex-wrap: wrap;
+}
+
+.containerG .titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.gp,
+.ep {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    column-gap: 20vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gp div,
+.ep div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.gp div:first-of-type,
+.ep div:first-of-type,
+#produtos div:first-of-type {
+    font-size: 1.5rem;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 2vw;
+}
+
+.gp .form input,
+.gp .form button,
+.ep .form input,
+.ep .form button {
+    display: flex;
+    width: clamp(30vw, 50%, 30vw);
+    justify-content: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
